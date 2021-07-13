@@ -1,0 +1,20 @@
+.btn-primary {
+    display: inline-block;
+    background-color: #adeb05;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    animation-name: boton-movil;
+    animation-duration: 5s;
+    animation-delay: initial;
+    position: relative;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes boton-movil {
+    0% {background-color: #adeb05;left: 0%;}
+    25% {background-color: aqua;left: 50px;}
+    50% {background-color: black;left: 100px;}
+    75% {background-color: blueviolet;left: 150px;}
+    100% {background-color: blue;left: 200px;}
+}
